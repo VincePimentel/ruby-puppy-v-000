@@ -5,7 +5,7 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << self
+    @@all << self if !@@all.include?(name)
   end
 
   def self.all
