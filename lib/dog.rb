@@ -9,10 +9,9 @@ class Dog
   end
 
   def self.all
-    @@all.flatten
-    # @@all.each do |name|
-    #   puts name
-    # end
+    @@all.each do |name|
+      puts name
+    end
   end
 
   def self.clear_all
