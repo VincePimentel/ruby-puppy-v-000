@@ -1,4 +1,4 @@
-require = 'pry'
+require 'pry'
 
 class Dog
   attr_accessor :name
@@ -22,3 +22,4 @@ class Dog
 end
 
 lily = Dog.new("Lily")
+binding.pry
