@@ -9,7 +9,7 @@ class Dog
   end
 
   def self.all
-    @@all.each do |name|
+    @@all.collect do |name|
       puts "#{name}"
     end
   end
